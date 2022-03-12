@@ -1,0 +1,51 @@
+.task{
+    /* font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #202020; */
+    position: relative;
+    margin-bottom: 9px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    padding: 11px 12px;
+    padding-bottom: 11px;
+
+    display: flex;
+}
+
+.task_done{
+    background-color: #F4F4F4;
+}
+
+.task_done .task__check-button::after{
+    content: ' ';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 0px;
+    height: 0px;
+    border: 6px solid #C4C4C4;
+    border-radius: 100%;
+
+    /* background-color: #F4F4F4; */
+}
+
+.task__close-button{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+.task__check-button{
+    margin-right: 12px;
+}
+
+.check-button{
+    border: 1px solid #998899;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}

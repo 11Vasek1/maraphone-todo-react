@@ -1,0 +1,19 @@
+.task-input{
+    position: relative;
+    margin-bottom: 9px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    padding: 11px 12px;
+    display: flex;
+}
+
+.task-input__button{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+.task-input__input{
+    width: 100%;
+    border: none;
+}
